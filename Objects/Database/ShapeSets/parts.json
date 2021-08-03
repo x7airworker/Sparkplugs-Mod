@@ -1,0 +1,44 @@
+{
+    "partList":[
+       {
+          "uuid":"a251e56c-eece-4a8a-8cbf-2a17fac8864a",
+          "renderable":{
+             "lodList":[
+                {
+                   "subMeshList":[
+                      {
+                         "textureList":[
+                            "$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+                            "$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+                            "$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga"
+                         ],
+                         "material":"DifAsgNor"
+                      }
+                   ],
+                   "mesh":"$SURVIVAL_DATA/Objects/Mesh/decor/obj_road_signpost.fbx"
+                }
+             ]
+          },
+          "color":"323232",
+          "box":{
+             "x":1,
+             "y":2,
+             "z":1
+          },
+          "rotationSet":"PropYmmNegYmm",
+          "physicsMaterial":"Metal",
+          "ratings":{
+             "density":4,
+             "durability":5,
+             "friction":4,
+             "buoyancy":5
+          },
+          "scripted": {
+            "filename": "$MOD_DATA/Scripts/Sparkplug.lua",
+            "classname": "Sparkplug"
+          },
+          "flammable":false,
+          "stackSize":10
+       }
+    ]
+ }
